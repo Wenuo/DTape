@@ -1,0 +1,22 @@
+{
+  "pages":[
+   
+    
+    "pages/hmeasure/hmeasure",
+    "pages/bluetooth/bluetooth",
+    "pages/chart/chart",
+   
+    
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

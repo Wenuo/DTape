@@ -1,0 +1,35 @@
+<view >
+    <view class="userIcon">
+       <view class="IconShape">
+          <view class="cu-avatar xl round  bg-red">{{iamgeName}}</view>
+       </view>
+          <view class="shenfen">
+               <view class="userInput">
+                  <input class="NameInput" value="{{value1}}"  type="text"  placeholder="用户名" bindinput="userInput" placeholder-class="center" maxlength="6"/>
+              </view>
+          <view class="userSex">
+                 <input  class="NameInput" value="{{value2}}"   placeholder="性别" bindinput="sexInput" type="text" placeholder-class="center"/>
+         </view>
+           <view class="action">
+               <text class="text-df margin-right-sm">图表</text>
+             <switch checked="{{chartSwitchchecked}}" class="sm" bindchange="SetShadow"></switch>
+     </view>
+      
+  </view>
+ 
+  </view>
+
+</view>
+<view class="zongaction">
+
+<view class="container" hidden = "{{!showChart}}">
+ 
+ <ec-canvas   id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+ <view>
+ <!-- <button bindtap="ios">daki</button>-->
+  <i-button bind:click="clearnews" type="error" shape="circle" >清除用户数据</i-button>
+  </view>
+  
+</view>
+ 
+</view>

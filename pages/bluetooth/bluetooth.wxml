@@ -1,0 +1,54 @@
+<!--pages/bluetooth/bluetooth.wxml-->
+<view >
+<view  class="fatherview">
+  <view class="textfather" style="display:flex ">
+      <text class="neardeviced">附近的设备</text>
+  </view>
+  <view class="divfather">
+      <view class="divLine"></view>
+  </view>
+  </view>
+</view>
+
+
+
+    <view  wx:for="{{devices}}" 
+         wx:key="{{item.deviceId}}" 
+         >
+         <!-- <button type="primary" class="button" id="{{item.deviceId}}" style='background-color:red' bindtap="creatBLEconnect">5连接{{item.name}}
+  </button> -->
+        <view class="item" style="display:flex;flex-direction:row;" bindtap="creatBLEconnect" 
+        id="{{item.deviceId}}">
+          <view class="bluetooth-icon">
+              <image src="/image/bluetooth.png" style="height:24px;width:24px"></image>
+          </view> 
+          <view style="display:flex;flex-direction:column;">
+              <view class="deviced-name" style="display:flex;flex-direction:column;" > 
+              <view>
+                <text class="name" >{{item.name}}</text>
+              </view>
+                <view>
+                <text class="address">{{item.deviceId}}</text>
+              </view>
+              </view>
+          </view>
+        </view>
+  </view>
+
+<view class="roundclick" >
+<image src="/image/refresh.png" style="height:24px;width:24px" bindtap="findBLE"></image>
+       <!-- <iamge src="/image/refresh.png" class="sceanMac" bindtap="findBLE" style="height:24px;width:24px"></iamge> 
+       wx:for-item="item" 
+         data-title="{{item.deviceId}}" 
+         data-name="{{item.name}}" 
+        data-advertisData="{{item.advertisServiceUUIDs}}" 
+       -->
+</view>
+
+<view  class='myview' >
+    
+      {{info}}
+    
+ 
+  </view>
+

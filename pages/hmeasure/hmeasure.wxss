@@ -1,0 +1,200 @@
+/* pages/hmeasure/hmeasure.wxss */
+.svg-height{
+  margin-top: 175rpx;
+  /*border: 2rpx black solid;*/
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /*background: blue;*/
+  /*width: 600rpx;*/
+}
+.icon-height{
+  background-image: url("data:image/svg+xml,%3Csvg class='icon' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Cdefs%3E%3Cstyle/%3E%3C/defs%3E%3Cpath d='M488.324 199.374c-.052-2.916-3.614-7.538-10.686-13.903-10.6-9.546-13.972-35.604-13.972-44.175 0-8.587-5.38-49.88 39.788-51.366 45.179-1.491 46.855 28.045 46.855 49.43 0 3.736-3.53 28.857-10.2 41.576-4.26 8.06-13.5 13.256-13.079 18.439.263 3.148 3.64 7.035 10.172 11.73 18.332 9.475 30.836 14.225 37.528 14.225 10.002 0 48.998 9.697 55.42 39.126 4.274 19.6 12.354 63.496 24.217 131.676 16.081 34.301 24.12 60.072 24.12 77.33 0 17.284 2.766 33.8 8.289 49.55 19.3 16.944 28.95 27.803 28.95 32.604 0 7.18-15.273-6.945-15.273-6.945s-3.743 13.911 0 19.992c3.772 6.094 6.135 12.762 2.882 15.896-2.14 2.055-7.161 3.547-15.003 4.325l-19.323-4.325c-2.897-21.115-3.899-34.782-2.989-41.075 1.381-9.521 2.033-6.594 0-11.242-2.022-4.57-36.141-88.157-40.025-97.495-2.617-6.216-10.724-34.156-24.38-83.83-12.013 63.861-15.023 108.515-9.016 133.966 9.017 38.13-7.66 186.714-7.66 201.628v80.567c0 17.695-6.338 61.837-19.03 132.595 16.799 15.685 28.682 23.488 35.705 23.488 10.495 0 19.13-.077 19.13 5.95 0 4.05-4.24 5.972-12.68 5.727-23.359-1.608-38.328-2.42-44.895-2.42-9.82 0-16.996 3.303-21.483 0-4.488-3.306-8.98-6.735-4.488-13.12 4.488-6.377 4.488-16.84 4.488-23.964 0-7.105-19.379-99.995-14.66-147.672 4.739-47.744 3.546-45.65 0-75.257-3.533-29.636-9.914-111.676-9.914-123.731 0-12-.035-20.709-4.866-20.709-4.845 0-7.124 5.926-5.98 15.522 1.14 9.505-9.017 116.803-13.487 132.715-4.459 15.933 4.015 68.324 4.015 86.79 0 18.482-15.56 128.982-15.56 136.683 0 7.68 6.296 30.312 0 32.743-6.306 2.42-15.451-6.602-21.267-3.306-5.82 3.306-32.875 3.306-39.424 3.306h-18.658c-7.112-3.528-4.99-6.655 6.342-9.254 17.011-3.867 49.372-16.09 49.372-23.49 0-7.41-16.65-105.54-16.65-132.595v-80.567c0-19.55-16.348-100.726-13.627-135.233 2.74-34.491 5.22-92.744 2.608-120.995-2.608-28.26-3.393-73.818-6.387-79.365-2.998-5.581-27.94 89.428-36.131 105.979-5.456 11.06-15.697 34.737-30.719 71.066.819 37.747-.156 56.595-2.92 56.595-4.157 0-16.626 4.325-21.666 4.325-3.37 0-8.262-1.49-14.7-4.325 6.654-20.416 8.7-31.53 6.154-33.281-3.817-2.61-10.623 8.668-16.93 4.338-6.306-4.338 8.895-13.311 14.46-18.344 3.716-3.36 8.168-8.072 13.357-14.26 3.229-45.76 7.739-75.193 13.541-88.266 8.706-19.61 23.74-47.236 23.74-75.3 0-28.05 18.868-112.94 33.853-121.008 14.97-8.096 68.565-19.999 75.654-27.334 4.722-4.896 7.088-8.819 7.088-11.73zm0 0'/%3E%3C/svg%3E");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.icon{
+
+    width: 900rpx;
+    height: 900rpx;
+   /* background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.back-heightbutton{
+  background: rgba(201, 104, 104, 0.577);
+  height: 30rpx;
+  width: 30rpx;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 82rpx;
+  left: 342rpx;
+}
+.height-button{
+  background: red;
+  height: 14rpx;
+  width: 14rpx;
+  border:0;
+  border-radius: 50%;
+  position: absolute;
+  top: 90rpx;
+  left: 350rpx;
+}
+.height-text{
+  position: absolute;
+  top: 50rpx;
+  left: 100rpx;
+  color: rebeccapurple;
+}
+.height-name{
+  position: absolute;
+  top: 20rpx;
+  left: 102rpx;
+  font-size: small;
+  color: #888888;
+}
+.back-chastbutton{
+  background: rgba(201, 104, 104, 0.577);
+  height: 30rpx;
+  width: 30rpx;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 249rpx;
+  left: 327rpx;
+}
+.chast-button{
+  background: red;
+  height: 14rpx;
+  width: 14rpx;
+  border:0;
+  border-radius: 50%;
+  position: absolute;
+  top: 258rpx;
+  left: 335rpx;
+}
+.chast-text{
+  position: absolute;
+  top: 300rpx;
+  left: 100rpx;
+  color: rebeccapurple;
+}
+.chast-name{
+  position: absolute;
+  top: 270rpx;
+  left: 90rpx;
+  font-size: small;
+  color: #888888;
+}
+.back-waistbutton{
+  background: rgba(201, 104, 104, 0.577);
+  height: 30rpx;
+  width: 30rpx;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 390rpx;
+  left: 327rpx;
+}
+.waist-button{
+  background: red;
+  height: 14rpx;
+  width: 14rpx;
+  border:0;
+  border-radius: 50%;
+  position: absolute;
+  top: 398rpx;
+  left: 335rpx;
+}
+.waist-text{
+  position: absolute;
+  top: 480rpx;
+  left: 100rpx;
+  color: rebeccapurple;
+}
+.waist-name{
+  position: absolute;
+  top: 450rpx;
+  left: 90rpx;
+  font-size: small;
+  color: #888888;
+}
+.back-buttbutton{
+  background: rgba(201, 104, 104, 0.577);
+  height: 30rpx;
+  width: 30rpx;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 430rpx;
+  left: 397rpx;
+}
+.butt-button{
+  background: red;
+  height: 14rpx;
+  width: 14rpx;
+  border:0;
+  border-radius: 50%;
+  position: absolute;
+  top: 438rpx;
+  left: 405rpx;
+}
+.butt-text{
+  position: absolute;
+  top: 310rpx;
+  right: 100rpx;
+  color: rebeccapurple;
+}
+.butt-name{
+  position: absolute;
+  top: 280rpx;
+  /*left: 600rpx;*/
+  right: 90rpx;
+  font-size: small;
+  color: #888888;
+}
+.mineIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  position: absolute;
+  right:70rpx;
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 100%;
+  background-color:#19be6b ;
+}
+/*.turnOffIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  position: absolute;
+  left:70rpx;
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 100%;
+  background-color:#ed3f14 ;
+}*/
+.zongview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50rpx;
+}
+.usernameKind{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

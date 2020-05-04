@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "i-button": "../../dist/button/index"
+  },
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "DTape",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+     
+
+}

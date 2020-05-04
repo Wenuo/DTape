@@ -1,0 +1,45 @@
+<!--pages/hmeasure/hmeasure.wxml-->
+  <view class="svg-height" style="opacity{{0}}">
+    <text class="icon-height icon"></text>  
+      <view class="height-button" ></view>
+      <view class="back-heightbutton" bindtap="showheight" ></view>
+      <text class="height-text" wx:if ="{{heightState}}" >{{height_num}}</text>
+      <text class="height-name">身高</text>
+      
+        <view class="chast-button"></view>
+         <view class="back-chastbutton" bindtap="showchast"></view>
+         <text class="chast-text" wx:if ="{{chastState}}">{{chast_num}}</text>
+          <text class="chast-name">胸围</text>
+
+         <view class="waist-button"></view>
+         <view class="back-waistbutton" bindtap="showwaist"></view>
+           <text class="waist-text" wx:if ="{{waistState}}">{{waist_num}}</text>
+            <text class="waist-name">腰围</text>
+
+         <view class="butt-button"></view>
+         <view class="back-buttbutton" bindtap="showbutt"></view>
+         <text class="butt-text" wx:if ="{{buttState}}">{{butt_num}}</text>
+         <text class="butt-name">臀围</text>
+
+
+
+  </view>
+  <view class="usernameKind">
+  <view>User:{{Name}}</view>
+  </view>
+    
+      <view class="zongview" style="flex-direction:row;">
+          <view  class="openBLEview" >
+            <i-button bind:click="openBLE" type="success" shape="circle" >打开蓝牙</i-button>
+         </view>
+      
+         <view  class="mineIcon">
+              <image src="/image/mine.png" style="height:20px;width:20px" bindtap="turntoMine"></image>
+        </view>
+     <!--   <view  class="turnOffIcon">
+              <image src="/image/bleoff.png" style="height:30px;width:30px" bindtap="turnoffble"></image>
+        </view> --> 
+        </view>
+      <!--<canvas canvas-id="myCanvas" class="myCanvas"></canvas>-->
+      
+

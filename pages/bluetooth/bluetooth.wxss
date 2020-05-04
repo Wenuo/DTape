@@ -1,0 +1,86 @@
+/* pages/bluetooth/bluetooth.wxss */
+.bluetooth-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50rpx;
+  /*background: red;*/
+}
+.deviced-name{
+ /* display: flex;
+  justify-content: center;
+  align-items: center;*/
+  margin-left: 30rpx;
+  /*background: red;*/
+}
+.searchdeviced{
+    margin-left: 30rpx;
+}
+.address{
+    color: #888888;
+    font-size: medium;
+}
+/*.textfather{
+  margin:10rpx;
+}*/
+.neardeviced{
+  font-size: small;
+  color: #706f6f;
+  margin-left: 40rpx;
+}
+.fatherview{
+  display: flex;
+  height: 100rpx;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textfather{
+
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+
+}
+.divfather{
+  margin-top: 10rpx;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.divLine{
+  background: #706f6f;
+  width: 90%;
+  height: 1rpx;
+ }
+ /*.sceanMac{
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 150rpx;
+  right: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  background-color:rgb(255, 0, 0) ;
+ }*/
+ .roundclick{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 120rpx;
+  right: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  background-color:#19be6b ;
+ }
+ .myview{
+  height:200px;
+  word-break:break-all;/* 自动换行 */
+}

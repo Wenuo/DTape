@@ -1,0 +1,90 @@
+/* pages/demo3/demo3.wxss *//**index.wxss**/
+
+@import "../../utils/main.wxss";
+@import "../../utils/icon.wxss";
+ec-canvas {
+  width: 100%;
+  height: 90%;
+}
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin-top: 600rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+} 
+.userIcon{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50rpx;
+}
+.IconShape{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.shenfen{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  margin-top: 50rpx;
+}
+.userInput{
+    background: rgb(255, 255, 255);
+    width:200%;
+    height:60rpx;
+    display:flex;
+    border-radius:40px;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50rpx;
+}
+.userSex{
+    background: rgb(255, 255, 255);
+    width: 200%;
+    height:60rpx;
+    border-radius:40px;
+    display:flex;
+  align-items: center;
+  margin-top: 40rpx;
+  justify-content:center;
+  
+}
+.center{
+  text-align: center;
+}
+.NameInput{
+  width: 100rpx;
+  height: 60rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+.zongaction{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.action{
+  display:flex;
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: row;
+  margin-top: 40rpx;
+  background: white;
+  width: 300%;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
